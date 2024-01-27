@@ -4,7 +4,7 @@ public class Task6 {
     private int max;
     private int min;
 
-    public void Task6(int val1, int val2) {
+    public Task6(int val1, int val2) {
         setValues(val1, val2);
     }
 

@@ -9,6 +9,6 @@ public class SuperClass {
 
     @Override
     public String toString() {
-        return "SuperClass{text='" + text + "'}";
+        return "Class = " + this.getClass().getSimpleName() + " Text = '" + text + "' ";
     }
 }

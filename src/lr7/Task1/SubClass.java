@@ -15,6 +15,7 @@ public class SubClass extends SuperClass {
 
     @Override
     public String toString() {
-        return "SubClass{text='" + super.toString() + "', additionalText='" + additionalText + "'}";
+        return "Class = " + this.getClass().getSimpleName() + ", Text='"
+                + super.toString() + "', additionalText= '" + additionalText + "' ";
     }
 }
